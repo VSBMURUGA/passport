@@ -30,12 +30,12 @@ pipeline{
      stage('Deploy to artifactory'){
         steps{
         rtUpload(
-         serverId : 'ARTIFACTORY_SERVER',
+         serverId : 'Jfrog_Server',
          spec :'''{
            "files" :[
            {
            "pattern":"target/*.jar",
-           "target":"art-doc-devo-loc"
+           "target":"Ppfrog"
            }
            ]
          }''',
