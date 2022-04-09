@@ -15,7 +15,7 @@ pipeline{
      stage('Deploy to artifactory'){
         steps{
         rtUpload(
-         serverId : 'JFrog-server',
+         serverId :'JFrog-server',
          spec :'''{
            "files" :[
            {
