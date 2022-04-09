@@ -20,7 +20,7 @@ pipeline{
            "files" :[
            {
            "pattern":"target/*.jar",
-           "target":"Ppfrog"
+           "target":"love"
            }
            ]
          }''',
